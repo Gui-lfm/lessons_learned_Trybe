@@ -7,42 +7,42 @@ body {
   position: fixed;
   top: 0;
   text-align: center;
-  background-color: #2ec18b;
+  background-color: rgb(46, 193, 139);
   padding: 0 40%;
 }
 
 #cabecalho li {
   display: inline-block;
+    
 }
 
 #cabecalho a {
   color: black;
+  text-decoration: none;
+}
+
+#cabecalho a:hover{
+    text-decoration: underline;
 }
 
 #titulo {
   margin: 0;
 }
 
-#titulo,
-h2,
-h3 {
-  font-family: "Montserrat", sans-serif;
+#titulo, h2, h3 {
+  font-family: Montserrat, sans-serif;
 }
 
 #lessons {
   margin: 0 30%;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas, #licoes_a_aprender {
   display: inline-block;
   margin: 1em 1.5em;
 }
 
-#licoes_aprendidas li,
-#licoes_a_aprender li,
-.text,
-#rodape p {
+#licoes_aprendidas li, #licoes_a_aprender li, .text, #rodape p, #cabecalho li {
   font-family: "Roboto Flex", sans-serif;
 }
 
@@ -62,8 +62,7 @@ h3 {
 }
 
 .student a {
-
-    color: #2ec18b;
+    color: rgb(46, 193, 139);
     text-decoration: none;
 }
 
@@ -71,20 +70,18 @@ h3 {
   margin: 0 20%;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo, .lado-direito {
   padding: 0 1em;
   margin: 0 1em;
 }
 
-.about article,
-.about aside {
+.about article, .about aside {
   width: 40%;
   display: inline-block;
 }
 
 .text {
-  border: outset #2ec18b;
+  border: outset rgb(46, 193, 139);
   padding: 1em;
   line-height: 1.5;
 }
@@ -97,19 +94,16 @@ h3 {
 }
 
 /* tabela */
-
 .bonus {
   margin: 1em 33% 0;
 }
 
-table,
-th,
-td {
+table, th, td {
   font-family: "Roboto Flex", sans-serif;
   border: 1px solid black;
   padding: 2px;
 }
 
 th {
-  background-color: #2ec18b;
+  background-color: rgb(46, 193, 139);
 }
