@@ -5,4 +5,15 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
+    text-align: center;
+}
+
+#titulo{
+    
+}
+
+#minha_foto{
+
+    width: 300px;
+    border-radius: 50%;
 }
