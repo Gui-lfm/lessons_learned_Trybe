@@ -1,16 +1,115 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0;
-    text-align: center;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #2ec18b;
+  padding: 0 40%;
 }
 
+#cabecalho li {
+  display: inline-block;
+}
 
-#minha_foto{
+#cabecalho a {
+  color: black;
+}
 
-    width: 300px;
-    border-radius: 50%;
+#titulo {
+  margin: 0;
+}
+
+#titulo,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#lessons {
+  margin: 0 30%;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+  margin: 1em 1.5em;
+}
+
+#licoes_aprendidas li,
+#licoes_a_aprender li,
+.text,
+#rodape p {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+#minha_foto {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.student {
+  padding-top: 6em;
+  margin: 1em 40% 0;
+}
+
+.student h2 {
+  display: inline-block;
+  font-size: 1em;
+}
+
+.student a {
+
+    color: #2ec18b;
+    text-decoration: none;
+}
+
+.about {
+  margin: 0 20%;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  padding: 0 1em;
+  margin: 0 1em;
+}
+
+.about article,
+.about aside {
+  width: 40%;
+  display: inline-block;
+}
+
+.text {
+  border: outset #2ec18b;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+#rodape {
+  padding: 1em;
+  background-color: gray;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* tabela */
+
+.bonus {
+  margin: 1em 33% 0;
+}
+
+table,
+th,
+td {
+  font-family: "Roboto Flex", sans-serif;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+th {
+  background-color: #2ec18b;
 }

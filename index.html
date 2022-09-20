@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Flex:opsz@8..144&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Lessons Learned</title>
   </head>
@@ -12,17 +16,23 @@
     <!-- cabeçalho -->
     <header id="cabecalho">
       <h1 id="titulo">Lessons Learned</h1>
+      <nav>
+        <ul>
+          <li><a href="#lessons">Lições</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#bonus">Extras</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- perfil -->
-    <section>
+    <section class="student">
       <img
         src="/img/profile-picture.jpeg"
         alt="foto Guilherme Lucena"
         id="minha_foto"
       />
       <h2>
-        Estudante
         <a
           href="https://www.linkedin.com/in/guilherme-lucena-fm94/"
           target="_blank"
@@ -32,51 +42,92 @@
     </section>
 
     <!-- lessons learned -->
-    <ol id="licoes_aprendidas">
-      <li>Unix & Bash</li>
-      <li>Git</li>
-      <li>Github</li>
-      <li>Como funciona a internet</li>
-      <li>Estruturas de uma página HTML</li>
-      <li>Propriedades de texto no CSS</li>
-      <li>Pseudoclasses CSS</li>
-      <li>Box model</li>
-      <li>HTML semântico</li>
-      <li>elementos inline, block e inline-block</li>
-    </ol>
+    <section id="lessons">
+      <h3>O que foi visto até aqui... E o que vem a seguir:</h3>
+      <ol id="licoes_aprendidas">
+        <li>Unix & Bash</li>
+        <li>Git</li>
+        <li>Github</li>
+        <li>Como funciona a internet</li>
+        <li>Estruturas de uma página HTML</li>
+        <li>Propriedades de texto no CSS</li>
+        <li>Pseudoclasses CSS</li>
+        <li>Box model</li>
+        <li>HTML semântico</li>
+        <li>elementos inline, block e inline-block</li>
+      </ol>
 
-    <!-- future lessons -->
-    <ul id="licoes_a_aprender">
-      <li>JavaScript</li>
-      <li>DOM</li>
-      <li>Flexbox</li>
-      <li>Grid</li>
-      <li>TypeScript</li>
-      <li>React</li>
-      <li>Jest</li>
-      <li>Node.js</li>
-      <li>POO</li>
-      <li>SQL</li>
-    </ul>
+      <!-- future lessons -->
 
+      <ul id="licoes_a_aprender">
+        <li>JavaScript</li>
+        <li>DOM</li>
+        <li>Flexbox</li>
+        <li>Grid</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Jest</li>
+        <li>Node.js</li>
+        <li>POO</li>
+        <li>SQL</li>
+      </ul>
+    </section>
     <!-- sobre aprendizado -->
-    <article>
-      <p>
-        O aprendizado na trybe segue a metodologia ativa, que dentre outras coisas, destaco a priorização da participação da pessoa estudante no aprendizado. O curso é divido em quatro módulos: Fundamentos, Front-end, Back-end e Ciência da computação. Além disso, ao longo do curso haverão momentos de soft-skills em que habilidades socioemocionais serão desenvolvidas. O próximo conteúdo de hard-skills a ser trabalhado será sobre JavaScript, onde teremos uma introdução na linguagem de programação.
-      </p>
-    </article>
 
-    <!-- sobre estudante -->
-    <aside>
-      <p>
-        Olá, me chamo Guilherme Lucena, tenho 27 anos, nascido e crescido em São
-        Paulo/SP. Sou formado em História pela Universidade de São Paulo(USP).
-        Atualmente estou estudando desenvolvimento web pela
-        <strong>Trybe</strong> na turma 27, iniciada em Setembro de 2022.
-      </p>
-    </aside>
+    <section class="about" id="about">
+      <article class="lado-esquerdo">
+        <h3>Sobre a Trybe:</h3>
+        <p class="text">
+          O aprendizado na trybe segue a metodologia ativa, que dentre outras
+          coisas, destaco a priorização da participação da pessoa estudante no
+          aprendizado. O curso é divido em quatro módulos: Fundamentos,
+          Front-end, Back-end e Ciência da computação. Além disso, ao longo do
+          curso haverão momentos de soft-skills em que habilidades
+          socioemocionais serão desenvolvidas.
+        </p>
+      </article>
+
+      <!-- sobre estudante -->
+      <aside class="lado-direito">
+        <h3>Sobre mim:</h3>
+        <p class="text">
+          Olá, me chamo Guilherme Lucena, tenho 27 anos, nascido e crescido em
+          São Paulo/SP. Sou formado em História pela Universidade de São
+          Paulo(USP). Atualmente estou estudando desenvolvimento web pela
+          <strong>Trybe</strong> na turma 27.
+        </p>
+      </aside>
+    </section>
+
+    <section class="bonus" id="bonus">
+        <h3>Infos extras: </h3>
+      <table>
+        <tr>
+          <th>Bloco</th>
+          <th>Nº de seções</th>
+          <th>Qtd. de projetos</th>
+        </tr>
+        <tr>
+          <td>Unix & Bash</td>
+          <td>três</td>
+          <td>zero</td>
+        </tr>
+        <tr>
+          <td>Git, Github e Internet</td>
+          <td>três</td>
+          <td>zero</td>
+        </tr>
+        <tr>
+          <td>introdução - HTML & CSS</td>
+          <td>cinco</td>
+          <td>um</td>
+        </tr>
+      </table>
+    </section>
 
     <!-- rodapé -->
-    <footer id="rodape"></footer>
+    <footer id="rodape">
+      <p>Projeto realizado no dia 20/09</p>
+    </footer>
   </body>
 </html>
