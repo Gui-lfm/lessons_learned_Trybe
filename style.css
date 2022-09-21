@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/* cabeçalho */
 #cabecalho {
   position: fixed;
   top: 0;
@@ -13,7 +14,6 @@ body {
 
 #cabecalho li {
   display: inline-block;
-    
 }
 
 #cabecalho a {
@@ -21,31 +21,21 @@ body {
   text-decoration: none;
 }
 
-#cabecalho a:hover{
-    text-decoration: underline;
+#cabecalho a:hover {
+  text-decoration: underline;
 }
 
 #titulo {
   margin: 0;
 }
 
-#titulo, h2, h3 {
+#titulo,
+h2,
+h3 {
   font-family: Montserrat, sans-serif;
 }
 
-#lessons {
-  margin: 0 30%;
-}
-
-#licoes_aprendidas, #licoes_a_aprender {
-  display: inline-block;
-  margin: 1em 1.5em;
-}
-
-#licoes_aprendidas li, #licoes_a_aprender li, .text, #rodape p, #cabecalho li {
-  font-family: "Roboto Flex", sans-serif;
-}
-
+/* perfil */
 #minha_foto {
   width: 250px;
   border-radius: 50%;
@@ -62,20 +52,42 @@ body {
 }
 
 .student a {
-    color: rgb(46, 193, 139);
-    text-decoration: none;
+  color: rgb(46, 193, 139);
+  text-decoration: none;
 }
 
+/* aprendizado */
+#lessons {
+  margin: 0 30%;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+  margin: 1em 1.5em;
+}
+
+#licoes_aprendidas li,
+#licoes_a_aprender li,
+.text,
+#rodape p,
+#cabecalho li {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+/* sobre */
 .about {
   margin: 0 20%;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo,
+.lado-direito {
   padding: 0 1em;
   margin: 0 1em;
 }
 
-.about article, .about aside {
+.about article,
+.about aside {
   width: 40%;
   display: inline-block;
 }
@@ -86,6 +98,7 @@ body {
   line-height: 1.5;
 }
 
+/* footer */
 #rodape {
   padding: 1em;
   background-color: gray;
@@ -98,7 +111,9 @@ body {
   margin: 1em 33% 0;
 }
 
-table, th, td {
+table,
+th,
+td {
   font-family: "Roboto Flex", sans-serif;
   border: 1px solid black;
   padding: 2px;
